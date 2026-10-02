@@ -1,0 +1,59 @@
+.confirmation-page {
+  max-width: 600px;
+  margin: auto;
+  padding: 130px 30px;
+  text-align: center;
+}
+
+.confirmation-icon {
+  display: grid;
+  place-items: center;
+  width: 62px;
+  height: 62px;
+  margin: 0 auto 24px;
+  border: 2px solid #111;
+  border-radius: 50%;
+  font-size: 28px;
+}
+
+.confirmation-label {
+  color: #777;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.confirmation-page h1 {
+  font-size: 46px;
+  line-height: 1;
+  margin: 12px 0 18px;
+}
+
+.confirmation-message {
+  color: #666;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 460px;
+}
+
+.return-to-shop {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 22px;
+  background: #111;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+@media (max-width: 600px) {
+  .confirmation-page {
+    padding: 90px 20px;
+  }
+
+  .confirmation-page h1 {
+    font-size: 36px;
+  }
+}
